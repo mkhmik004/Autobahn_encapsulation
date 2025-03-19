@@ -4,6 +4,10 @@ import java.awt.*;
 import java.time.Year;
 public class Autobahn {
     public static void main(String[] args) {
+        Autobahn a = new Autobahn();
+        a.run();
+    }
+    public void run() {
         Car mikesCar = new Car( "Toyota", "Corolla", Year.of( 1995 ), Color.RED );
         Car gumdrop = new Car( "Austin", "Clifton Heavy", Year.of( 1926 ), Color.WHITE );
         Car kitt = new Car( "Ford", "Mustang", Year.of( 2008 ), Color.BLACK );
